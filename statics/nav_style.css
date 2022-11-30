@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+nav {
+  top: 0;
+
+  height: 80px;
+  width: 100%;
+  background-color: rgba(222, 184, 135, 0.4);
+  position: fixed;
+  z-index: 100;
+}
+
+#logo {
+  height: 70px;
+  width: 50%;
+  display: inline-flex;
+  /* background-image: url("../resources/logo3.png");
+  background-repeat: no-repeat;
+  background-size: 50% 100%; */
+
+  color: white;
+}
+#logo img {
+  opacity: 0.5;
+
+  padding-left: 8%;
+}
+#logo a {
+  padding: 0%;
+  margin: 0%;
+  padding-bottom: 3%;
+  display: inline-flex;
+  padding-left: 1%;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Bungee", cursive;
+}
+#navLinks {
+  height: 80px;
+  width: 50%;
+  float: right;
+}
+
+nav a {
+  font-family: "MedievalSharp", cursive;
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin: 1%;
+  padding-top: 4.5%;
+  /* padding-bottom: 2%; */
+  padding-right: 10%;
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+
+#about {
+  scroll-margin-top: 80px;
+  height: 400px;
+  background-image: url("../resources/brown.png"), url("../resources/wall2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover, cover;
+  background-position: center, center;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  color: white;
+  font-family: "MedievalSharp", cursive;
+}
+
+#title {
+  font-size: 50px;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+
+#description {
+  width: 1000px;
+  padding-left: 15%;
+}

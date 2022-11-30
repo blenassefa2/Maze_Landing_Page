@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+
+#introduction {
+  padding-top: 100px;
+  height: 520px;
+
+  background-image: url("../resources/dark.jpg"), url("../resources/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover, cover;
+  background-position: center, center;
+  background-blend-mode: hard-light;
+  text-align: center;
+  align-items: center;
+}
+
+.t {
+  width: 80%;
+  margin-top: 5%;
+  background-color: transparent;
+  font-size: 40px;
+
+  margin: auto;
+  margin-top: 150px;
+  text-align: center;
+  align-items: center;
+  font-family: "Lobster";
+}
+
+#intro {
+  font-size: 70px;
+  font-family: "MedievalSharp", cursive;
+  color: white;
+  /* background-color:  */
+}
+
+#introduction button {
+  width: 345px;
+  height: 79px;
+  border: none;
+
+  font-size: larger;
+  font-family: "MedievalSharp", cursive;
+  color: white;
+  text-shadow: #404040 5px;
+  background: url("../resources/woodButton1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

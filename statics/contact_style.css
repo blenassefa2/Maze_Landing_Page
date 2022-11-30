@@ -1,0 +1,133 @@
+body {
+  scroll-margin-top: 80px;
+  padding: 0%;
+  margin: 0%;
+  /* background-image: url("../resources/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+.title {
+  float: left;
+  margin-top: 20px;
+  font-size: 35px;
+  margin-left: 100px;
+  z-index: 10;
+  text-decoration: none;
+  font-family: "Lobster", cursive;
+}
+#contact_us {
+  /* scroll-margin-top: 50px; */
+  height: 500px;
+
+  /* background-color: black; */
+  background-image: url("../resources/logo.png"), url("../resources/dark.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px, cover;
+  background-position: calc(47%) center, center;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  z-index: -45;
+  color: #fff;
+  font-family: poppins, sans-serif;
+}
+
+.text {
+  display: flex;
+
+  flex-wrap: wrap;
+  padding: 40px;
+  font-size: large;
+  justify-content: space-between;
+}
+
+#contact_us h2 {
+  width: 300px;
+
+  position: relative;
+  left: 39%;
+  height: 100px;
+  margin: 0%;
+  padding-top: 50px;
+  font-size: 46px;
+}
+
+h2::after {
+  content: "--get in touch--";
+  position: absolute;
+  top: 120px;
+  width: 200px;
+  left: 15%;
+  font-size: 20px;
+  color: white;
+  padding: 0 5px;
+
+  opacity: 30%;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  margin: 0%;
+  padding: 0.3%;
+  display: inline-block;
+  padding-bottom: 20px;
+  font-family: poppins, sans-serif;
+}
+
+.left {
+  margin-left: 240px;
+  width: 40%;
+  left: 40%;
+  display: inline-block;
+}
+
+.right {
+  width: 500px;
+  padding-left: 34px;
+}
+
+.sub-title,
+.sub-title .__cf_email__ {
+  text-decoration: none;
+  color: rgb(255, 145, 56);
+}
+
+.right input,
+.right textarea {
+  display: inline-block;
+  width: 50%;
+  border: 1px solid lightgrey;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: poppins, sans-serif;
+  transition: all 0.3s ease;
+}
+
+.right button {
+  color: #fff;
+  display: block;
+  width: 160px !important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: rgb(94, 57, 8);
+  border: 2px solid rgb(94, 57, 8);
+  transition: all 0.3s ease;
+}
+
+.right button:hover {
+  color: rgb(94, 57, 8);
+  background: 0 0;
+}

@@ -1,0 +1,15 @@
+footer {
+  background: rgb(94, 57, 8);
+  height: 20px;
+  color: #fff;
+  text-align: center;
+}
+footer span a {
+  color: rgb(223, 161, 111);
+  text-decoration: none;
+}
+
+footer span a:hover {
+  color: white;
+  text-decoration: underline;
+}

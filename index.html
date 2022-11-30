@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="statics/contact_style.css">
+    <link rel="stylesheet" href="statics/footer_styles.css">
+    <link rel="stylesheet" href="statics/explore_styles.css">
+    <link rel="stylesheet" href="statics/about_style.css">
+    <link rel="stylesheet" href="statics/nav_style.css">
+    <link rel="stylesheet" href="statics/introduction_style.css">
+    <script src="/statics/buttons.js"></script>
+    <link rel="shortcut icon" href="/resources/logo2.ico" type="image/x-icon">
+    <title>Medival Maze</title>
+  </head>
+  <body>
+    
+     
+    <nav>
+          <div id="logo">
+              <!-- logo -->
+              <img src="/resources/logo2.png" alt="">
+              <a href="#introduction">Medieval Maze</a>
+          </div>
+          <div id="navLinks">
+              <a href="#contact_us">Contact</a>
+              <a href="#explore">Links</a>
+              <a href="#about">About The Game</a>
+              <a href="#introduction">Introduction</a>
+          </div>
+    </nav>
+    
+
+    <!--first section-->
+    
+    <section id="introduction">
+        <div class="t">
+            <div id="intro">Medieval themed fun maze that you won't find anywhere else!!
+            <!-- <a id="inner" href="#maintags">Pick random place</a> -->
+            </div>
+        </div>
+        
+        <button type="button" onclick="downloadGame();">Download & Play</button>
+    </section>
+
+    <!-- second section -->
+    <section id="about">
+
+        <div id="title">
+            <p>About The Game</p>
+        </div>
+        <div id="description">
+            <p><b id="begining">Medieval Maze</b> is a medieval themed pseudo 3D computer game. 
+            It has medieval walls you can't walk through and it has medieval doors you can open with keys. 
+            There will also be medieval guards that are chasing you to kill you because you entered their world uninvited.
+            Your task now is, to use keys you get/ have to find the end of the maze(finish door) without getting caught by guards.
+            </p>
+
+            <p>
+                For this MVP there will only be two rounds with increased number of guards and complex map. 
+                You can use 'A' or '⬅' keys to  look to your left.  'D' or '➡' keys to  look to your right.
+                'W' or '⬆' keys to move forward. 'S' or ⬇' keys to  move backwards. 
+                If you have enough amount of keys for the doors you can open any door pressing the 'E' key.
+            </p>
+        </div>
+
+    </section>
+
+
+
+    <!-- third section -->
+    <section id="explore">
+        <div id="texts">
+            <a href="http://">Youtube Demo</a>
+            <a href="http://">Slide presentation</a>
+            <a href="http://">Blog Post</a>
+            <a href="http://">Github Repository</a>
+            
+        </div>
+
+        <button type="button" onclick="downloadGame();">Download & Play</button>
+
+    </section>
+
+
+    <!-- fourth section -->
+    <section id="contact_us">
+        <h2>Contact us</h2>
+        <div class="contact-content">
+            <div class="left">
+               
+                <div class="text">Keep in touch</div>
+                     <br>
+                      <div class="head">Name</div>
+                      <div class="sub-title" > Blen Assefa </div>
+                      <br><br>
+                  
+                      <div class="head">Address</div>
+                      <div class="sub-title" >Addis Ababa, Ethiopia</div>
+                      <br><br>
+                  
+                      <div class="head">Email</div>
+                      <div class="sub-title"><a href="/cdn-cgi/l/email-protection" class="__cf_email__">blenassefa59@yahoo.com </a></div>
+                    
+                      <br><br>
+                  
+                      <div class="head">Phone no.</div>
+                      <div class="sub-title">+251 0703 45527</div>
+                    
+            </div>
+            <div class="right">
+                <div class="text">Message us</div>
+                    <form action="" method = "POST">
+                      
+
+                            <input type="text" placeholder="Name" name = "name" required>
+                            
+                            <input type="email" placeholder="Email" name = "_replyto" required>
+                            
+                        
+                            <input type="text" placeholder="Subject" name = "subject" required>
+                        
+                        
+                            <textarea cols="30" rows="5" placeholder="Message.."  name = "message"required></textarea>
+                       
+                        
+                            <button type="submit" disabled>Send message</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer-->
+    <footer>
+      <span
+        >Created By <a href="https://github.com/blenassefa2">Blen Assefa</a> |
+        <span class="far fa-copyright"></span> &copy; 2022 All rights
+        reserved.</span
+      >
+    </footer>
+  </body>
+</html>
