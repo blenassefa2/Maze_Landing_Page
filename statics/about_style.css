@@ -2,7 +2,7 @@
 
 #about {
   scroll-margin-top: 80px;
-  height: 400px;
+  height: 600px;
   background-image: url("../resources/brown.png"), url("../resources/wall2.jpg");
   background-repeat: no-repeat;
   background-size: cover, cover;
