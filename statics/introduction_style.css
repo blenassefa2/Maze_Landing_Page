@@ -37,7 +37,7 @@
   width: 345px;
   height: 79px;
   border: none;
-
+  margin-bottom: 20px;
   font-size: larger;
   font-family: "MedievalSharp", cursive;
   color: white;
@@ -45,4 +45,20 @@
   background: url("../resources/woodButton1.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 1300px) {
+  #introduction {
+    height: fit-content;
+    max-width: 100%;
+  }
+  #introduction button {
+    max-width: 100%;
+  }
+  .t {
+    font-size: 50px;
+  }
+  #intro {
+    max-width: 100%;
+  }
 }

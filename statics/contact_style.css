@@ -1,7 +1,13 @@
+* {
+  max-width: 100%;
+}
 body {
   scroll-margin-top: 80px;
   padding: 0%;
   margin: 0%;
+  height: fit-content;
+  width: fit-content;
+  max-width: 100%;
   /* background-image: url("../resources/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat; */
@@ -130,4 +136,29 @@ h2::after {
 .right button:hover {
   color: rgb(94, 57, 8);
   background: 0 0;
+}
+@media (max-width: 1300px) {
+  #contact_us {
+    max-width: 100%;
+    height: fit-content;
+    justify-content: center;
+  }
+  #contact_us h2 {
+    display: none;
+  }
+
+  #contact_us h2::after {
+    display: none;
+  }
+  .allcontact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    margin: 30px;
+  }
 }

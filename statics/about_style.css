@@ -3,6 +3,7 @@
 #about {
   scroll-margin-top: 80px;
   height: 600px;
+  max-width: 100%;
   background-image: url("../resources/brown.png"), url("../resources/wall2.jpg");
   background-repeat: no-repeat;
   background-size: cover, cover;
@@ -20,6 +21,26 @@
 }
 
 #description {
-  width: 1000px;
   padding-left: 15%;
+}
+video {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+@media (max-width: 1300px) {
+  #about {
+    height: fit-content;
+  }
+  #description,
+  video {
+    padding-left: 0%;
+    margin-left: 13vw;
+    max-width: 100%;
+  }
+  video {
+    max-height: 200px;
+    max-width: 100%;
+    margin: 0%;
+  }
 }

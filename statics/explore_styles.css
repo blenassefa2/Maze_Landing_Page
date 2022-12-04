@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
 #explore {
   scroll-margin-top: 80px;
+  max-width: 100%;
   height: 350px;
   background-color: #404040;
   text-align: center;
 }
 #texts {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#explore a {
+#texts a {
   font-size: xx-large;
   font-family: "MedievalSharp", cursive;
   text-decoration: none;
@@ -23,6 +26,7 @@
   width: 345px;
   height: 79px;
   border: none;
+  margin-bottom: 20px;
   font-size: larger;
   font-family: "MedievalSharp", cursive;
   color: white;
@@ -30,4 +34,21 @@
   background: url("../resources/woodButton1.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (max-width: 1300px) {
+  #explore {
+    height: fit-content;
+  }
+  #texts {
+    display: inline-block;
+  }
+  #texts a {
+    display: block;
+  }
+  .button {
+    width: 100%;
+  }
+  .button button {
+    max-width: 100%;
+  }
 }

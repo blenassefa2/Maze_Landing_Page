@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="statics/about_style.css">
     <link rel="stylesheet" href="statics/nav_style.css">
     <link rel="stylesheet" href="statics/introduction_style.css">
-    <script src="/statics/buttons.js"></script>
-    <link rel="shortcut icon" href="/resources/logo2.ico" type="image/x-icon">
+    <script src="statics/buttons.js"></script>
+    <link rel="shortcut icon" href="resources/logo2.ico" type="image/x-icon">
     <title>Medival Maze</title>
   </head>
   <body>
@@ -20,7 +20,7 @@
     <nav>
           <div id="logo">
               <!-- logo -->
-              <img src="/resources/logo2.png" alt="">
+              <img src="resources/logo2.png" alt="">
               <a href="#introduction">Medieval Maze</a>
           </div>
           <div id="navLinks">
@@ -64,7 +64,7 @@
                 If you have enough amount of keys for the doors you can open any door pressing the 'E' key.
 
             </p>
-            <video width="700px" height="200px" controls>
+            <video controls>
                 <source src="resources/maze.mp4" type=video/mp4>
                
             </video>
@@ -84,13 +84,15 @@
             
         </div>
 
-        <button type="button" onclick="downloadGame();">Download & Play</button>
-
+        <div class="button">
+            <button type="button" onclick="downloadGame();">Download & Play</button>
+        </div>
     </section>
 
 
     <!-- fourth section -->
     <section id="contact_us">
+        <div class="allcontact">
         <h2>Contact me</h2>
         <div class="contact-content">
             <div class="left">
@@ -136,6 +138,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <!-- footer-->

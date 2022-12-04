@@ -52,3 +52,26 @@ nav a {
   /* padding-bottom: 2%; */
   padding-right: 10%;
 }
+
+@media (max-width: 1300px) {
+  #navLinks {
+    display: none;
+  }
+  #logo {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    max-width: 100%;
+  }
+  #logo a {
+    float: left;
+    /* margin-top: 6%; */
+    display: flexbox;
+  }
+}
+
+@media (max-width: 856px) {
+  #logo a {
+    display: none;
+  }
+}
